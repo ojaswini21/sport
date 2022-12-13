@@ -84,6 +84,9 @@ void addcategories(){
           scanf("%d",&c.Max_age);
          
           printf("\n\t\t\t______________________________\n");
+
+	  
+
   node=(categories*)malloc(sizeof(categories));
   node->category_id=autoIncreamentcategories();
   strcpy(node->category_desc, c.category_desc);
@@ -277,7 +280,9 @@ player p, *node;
 	scanf("%s",p.birth_date);
 
 	printf("\n\t\t\t____________________________________________\n");
-
+ printf("\n\t\t\t______________________________\n");
+  
+ 
 node=(player *)malloc(sizeof(player));
 node->player_id == autoIncrementplayer();
 strcpy(node->name, p.name);

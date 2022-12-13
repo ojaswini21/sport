@@ -1,9 +1,10 @@
 #include<header.h>
 int main()
 {
-	int ch;
+	int ch,val;
 	int returnValue = 0;
-	/*char password[20];
+	/*
+	char password[20];
       char p[]="admin";
       printf("Enter Password :");
       scanf("%s", password);
@@ -12,14 +13,14 @@ int main()
       if(val==0)
        {
     printf("Login SucessFully");
-       
+       */
      
 	    readcategories();
-	    readplayerFile(); */
+	    readplayerFile(); 
    
 	do 
 	{ 
-		system("cls");
+		
 	    	printf("---------Sportz - A Sport Tournament System---------\n");
 	    	printf("1. Manage Categories\n");	
 		printf("2. Manage Players\n");
@@ -95,7 +96,7 @@ int main()
 				    	printf("1. Add Player\n");	
 					printf("2. Modify Player\n");
 					printf("3. Delete Player\n");
-					printf("4. Modify Player\n");
+					printf("4. Display Player\n");
 					printf("0. Quit\n\n");
 	
 					printf("Enter your option: ");
@@ -311,3 +312,4 @@ int main()
 	return EXIT_SUCCESS;
        	
 }
+
